@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+.calculator {
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.values {
+    margin-bottom: 20px;
+}
+
+.num1 {}
+
+.num2 {}
+
+.mathematical-signs {
+    margin-bottom: 20px;
+}
+
+.result {}
+
+.answer {}
