@@ -5,9 +5,12 @@
 body,
 html {
     height: 100%;
+    overflow: hidden;
+    background-color: rgb(65, 49, 49);
+    font-family: 'Inter', sans-serif;
 }
 
-.calculator {
+.wrapper {
     height: 100%;
     text-align: center;
     display: flex;
@@ -15,18 +18,56 @@ html {
     justify-content: center;
 }
 
-.values {
-    margin-bottom: 20px;
+.calculator {}
+
+.header {
+    font-family: 'Caveat', cursive;
+    font-size: 80px;
 }
 
-.num1 {}
-
-.num2 {}
-
-.mathematical-signs {
-    margin-bottom: 20px;
+.input {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    font-size: 30px;
+    background-color: blanchedalmond;
+    padding: 5px;
+    margin: 20px;
+    font-family: 'Caveat', cursive;
 }
 
-.result {}
+.math-signs {}
 
-.answer {}
+.sign1 {
+    color: rgb(0, 4, 255);
+    font-size: 20px;
+}
+
+.sign2 {
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+}
+
+.sign3 {
+    color: rgb(195, 0, 255);
+    font-size: 20px;
+}
+
+.sign4 {
+    color: rgb(0, 255, 0);
+    font-size: 20px;
+}
+
+.button {
+    padding: 0px 10px;
+    font-size: 15px;
+    margin-right: 20px;
+}
+
+.result {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    background-color: rgb(235, 194, 134);
+    padding: 5px;
+    font-size: 30px;
+    font-family: 'Caveat', cursive;
+}

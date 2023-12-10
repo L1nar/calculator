@@ -4,29 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Inter&display=swap" rel="stylesheet">
     <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="calculator">
-        <div class="values">
-            <input type="text" id="number" class="num1">
-            <input type="text" id="number" class="num2">
+    <div class="wrapper">
+        <div class="header">Calculator</div>
+        <div class="calculator">
+            <input type="text" id="number1" class="input">
+            <select name="" id="math-signs">
+                <option class="sign1">+</option>
+                <option class="sign2">-</option>
+                <option class="sign3">*</option>
+                <option class="sign4">/</option>
+            </select>
+            <input type="text" id="number2" class="input">
+
+            <button id="btn" class="button">=</button>
+            <input type="text" id="answer" class="result" readonly>
         </div>
 
-        <div class="mathematical-signs">
-            <button id="btn" class="sign">+</button>
-            <button id="btn" class="sign">-</button>
-            <button id="btn" class="sign">*</button>
-            <button id="btn" class="sign">/</button>
-        </div>
-
-        <div class="result">
-            <input type="text" id="answer" readonly>
-        </div>
     </div>
-
     <script src="script.js"></script>
 </body>
 
